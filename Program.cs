@@ -12,6 +12,7 @@ namespace NomeASCIIArt
             string nome = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(FiggleFonts.Fraktur.Render(nome));
+            Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.Gray;
 
         }
